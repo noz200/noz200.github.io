@@ -1,0 +1,88 @@
+header{
+ background-image:url(killer-queen.jpg);
+
+ background-size:cover;
+ height:180px
+}
+.heading{
+ color:black;
+ cursor: pointer;
+ z-index: 10;
+ background-color: white;
+ opacity:0.5;
+ width:100px;
+ position:fixed;
+
+}
+.colos{
+   background-color:rgba(255,255,255,0.3);
+   height:200px;
+}
+.heading:hover{
+  font-weight: bold;
+}
+header p{
+  padding:0px 0px 0px 0px;
+  font-weight: bold;
+}
+header .colos{
+display:none;
+}
+.main{
+  background-color:rgba(0,255,255,0.6);
+
+
+}
+
+
+.skill{
+}
+.skill h2{
+  cursor:pointer;
+  background-color:pink;
+  border:blue solid 1px;
+  box-shadow:0 10px;
+  border-radius:5px;
+  width:30%;
+  float:left;
+}
+.skill h2:active{
+  box-shadow:none;
+  position:relative;
+  top:10px;
+}
+.skill p{
+
+  width:68%;
+  float:left;
+
+}
+.pop{
+  clear:both;
+}
+
+footer{
+ background-color:gold;
+ height:350px;
+}
+li{
+  list-style:none;
+  float:left;
+  font-size:12px;
+  padding:0 10px 0 10px;
+}
+.toi-write a{
+  padding:5px;
+  font-weight: bold;
+  color:black;
+  background-color:rgba(240,100, 150, 1);
+  margin-right:10px;
+  box-shadow:0px 10px rgb(0,0,0);
+  border:1px solid pink ;
+  border-radius:4px;
+}
+.toi-write a:active{
+  box-shadow:none;
+  position:relative;
+  top:10px;
+}
