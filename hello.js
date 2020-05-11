@@ -1,5 +1,5 @@
 $(function(){
-  $('.colos').fadeIn(1000);
+  $('.colos').fadeIn(10000);
   $('#1').find('h2').click(function(){
     $('.main').css('background-color','pink');
   });
